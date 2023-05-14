@@ -1,0 +1,441 @@
+@import "../css/Header-Css.css";
+@import "../css/footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Roboto;
+}
+
+.Home-Container{
+    width: 100%;
+    align-items: center;
+    justify-items: right;
+}
+/*Header*/
+.Header-Background{
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: none;
+}
+
+.beso{
+    margin-left: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.top{
+    padding: 100px 5% 0 5%;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.top-left{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.top-right{
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.top-img{
+    width: 100%;
+}
+.top-title{
+    color: #473288;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 20px;
+    /*width: 80%;*/
+}
+
+.contact-us{
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    color: #FDAE1F;
+    background-color: #FFF4E0;
+    border-radius: 50px;
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.second-container{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-title{
+    color: #473288;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.second-subtitle{
+    margin-top: 40px;
+    font-size: 1.4rem;
+}
+
+.second-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-right{
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+}
+
+.btn{
+    background-color: #7B66EF;
+    border-radius: 50px;
+    width: 100px;
+    height: 38px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-outer{
+    padding: 30px;
+}
+
+.card-inner-container{
+    width: 100%;
+    padding: 40px 46px 40px 50px;
+    /*margin: 10px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(55,43,125,.1);
+}
+
+.card-content{
+    padding-top: 20px;
+}
+
+.card-title{
+    color: #473288;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.card-img{
+    width: 80px;
+    height: 80px;
+}
+
+.card-subtitle{
+    padding-top: 10px ;
+    line-height: 20px;
+    font-size: 1.4rem;
+    color: #293A51;
+}
+
+.customers-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg4.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.our-work{
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    color: #FDAE1F;
+    background-color: #FFF4E0;
+    border-radius: 50px;
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.customers-title{
+    color: #473288;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.customers-subtitle{
+    margin: 30px 0;
+    font-size: 1.3rem;
+}
+
+.customers-left{
+    padding: 50px 40px;
+}
+.customers-right{
+    padding: 0 40px;
+}
+
+.customers-icon{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.customers-icon-title{
+    color: #473288;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.second-img{
+    width: 100%;
+}
+
+.btn-container{
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+}
+
+@media (min-width: 768px) {
+
+    .beso{
+        width: 160px;
+    }
+
+    .navbar-container {
+        display: block;
+        overflow: hidden;
+        margin: 20px 16px 0px 0;
+    }
+
+    .navbar-btn {
+        float: right;
+        color: black;
+        font-size: 1.4rem;
+        /*padding: 10px;*/
+        text-decoration: none;
+        /*margin: 10px 10px 10px 10px;*/
+        margin-right: 50px;
+
+    }
+
+    .active_navbar {
+        color: #7B66EF;
+    }
+
+    .navbar-btn:hover {
+        color: #9374E4;
+    }
+
+    .navbar-btn:active {
+        color: #9374E4;
+    }
+
+    .navbar-btn2 {
+        float: right;
+        border-radius: 50px;
+        background-color: #C5C4FC;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4rem;
+        width: 130px;
+        height: 34px;
+        border: none;
+        margin: 0px;
+        cursor: pointer;
+    }
+
+    .top {
+        padding: 0 14%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-right {
+        justify-content: right;
+    }
+
+    .top-title {
+        width: 90%;
+        font-size: 7rem;
+    }
+
+    .top-left {
+        padding: 0;
+    }
+
+    .second-container{
+        display: flex;
+        padding: 100px 14%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .second-right{
+        margin-top: 100px;
+    }
+
+    .second-title{
+        font-size: 6rem;
+        width: 80%;
+    }
+
+    .second-subtitle{
+        font-size: 1.8rem;
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .card-container{
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:0 30px;
+        background-image: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg3.png");
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: cover;
+
+    }
+
+    .card-outer{
+        width: 50%;
+        padding: 10px;
+    }
+
+
+    .card-inner-container{
+        flex-direction: row;
+        align-items: start;
+        width: 100%;
+        padding: 40px 40px 40px 44px;
+        background-color: white;
+
+    }
+
+    .card-content{
+        width: 80%;
+        padding-left  : 30px;
+
+    }
+
+    .card-img-container{
+        width: 20%;
+    }
+
+    .card-img{
+        /*background-color: #C5C4FC;*/
+        width: 100%;
+        height: 100%;
+    }
+
+    .customers-container{
+        flex-direction: row;
+        justify-content: center;
+        margin: 40px;
+        padding-top: 100px;
+    }
+
+    .customers-left{
+        width: 50%;
+    }
+
+    .customers-right{
+        width: 50%;
+    }
+
+    .customers-left{
+        padding: 0 40px;
+        width: 46%;
+    }
+    .customers-right{
+        padding: 0 40px;
+        width: 54%;
+    }
+    .customers-title{
+        font-size: 4rem;
+        line-height: 40px;
+    }
+    .customers-subtitle{
+        line-height: 20px;
+        margin: 20px 0;
+    }
+    .customers-icon-img{
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width: 1228px) {
+    .navbar-btn {
+        float: right;
+        color: black;
+        font-size: 1.4rem;
+        padding: 10px;
+        text-decoration: none;
+        margin: 20px 10px 10px 10px;
+    }
+
+    .navbar-btn2{
+        margin: 20px;
+    }
+    .active_navbar{
+        color:#7B66EF ;
+    }
+
+    .navbar-btn:hover {
+        color: #9374E4;
+    }
+
+    .navbar-btn:active {
+        color: #9374E4;
+    }
+
+    .card-container{
+        padding:0 200px;
+    }
+
+    .card-title{
+        font-size: 2rem;
+    }
+
+    .card-subtitle{
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+
+    .customers-container{
+        margin: 40px 12%;
+    }
+
+}

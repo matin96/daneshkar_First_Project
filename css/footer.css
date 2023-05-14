@@ -1,0 +1,122 @@
+.footer-container{
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg6.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #372B7D;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.join-to-us{
+    background-color: #513B6F;
+    color: #FCA80F;
+    padding: 8px 16px;
+    border-radius: 50px;
+
+}
+.footer-title{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 30px;
+}
+
+
+input{
+    background-color: #5047A0;
+    /*width: 540px;*/
+    width: 240px;
+    height: 30px;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+}
+.btn-signup-container{
+    color: white;
+    padding: 20px;
+}
+
+.btn-signup{
+    background-color: #FCA80F;
+    border-radius: 50px;
+    margin-right: 8px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    padding: 2px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.footer-content-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    color: white;
+    width: 80%;
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+.monday2{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.media-container{
+    width: 50%;
+    padding: 16px 0px 0 0px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.media-icon{
+    width: 28px;
+    height: 28px;
+}
+
+.tell{
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+
+
+@media (min-width: 768px) {
+    .footer-content{
+        flex-direction: row;
+    }
+
+    input{
+        width: 540px;
+    }
+
+}
+
+
+@media (min-width: 959px) {
+    .footer-content-col{
+        width: 24%;
+    }
+}

@@ -1,0 +1,696 @@
+@import "../css/Header-Css.css";
+@import "../css/footer.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+.Home-Container{
+    width: 100%;
+    align-items: center;
+    justify-items: right;
+    overflow: hidden;
+}
+/*Header*/
+.Header-Background{
+    width: 100%;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.navbar-container{
+    display: none;
+}
+
+
+.beso{
+    margin-left: 24px;
+    width: 100px;
+    cursor: pointer;
+    /*margin-top: 20px;*/
+}
+
+.welcome{
+    color: #FDAE1F;
+    background-color: #FFF4E0;
+    width: 10vw;
+    height: 1.6vw;
+    border-radius: 50px;
+    padding: 0.2vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8vw;
+}
+
+.top{
+    /*margin-top: 80px;*/
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-slider-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    /*background-color: #7B66EF;*/
+    /*height: 30vh;*/
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+.top-left{
+    width: 50%;
+    /*margin-left: 50px;*/
+    margin: 0px 0 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*padding-bottom: 40px;*/
+    padding-top: 40px;
+}
+
+.first-title{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #473288;
+    font-size: 1.2rem ;
+}
+
+.first-subtitle{
+    margin-top: 10px;
+    margin-right: 20px ;
+    padding-right: 4vw;
+    color: #505050;
+    font-size: 0.4rem;
+    line-height: 10px;
+    /*width: 80%;*/
+}
+
+.btn1\,2{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: left;
+}
+
+.btn1{
+    background-color: #7B66EF;
+    border-radius: 50px;
+    margin-right: 8px;
+    width: 10vw;
+    height: 2.8vw;
+    color: white;
+    padding: 10px 38px;
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn2{
+    background-color: #C5C4FC;
+    border-radius: 50px;
+    width: 10vw;
+    height: 2.8vw;
+    color:white;
+    padding: 2px;
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.first-img{
+    width: 100%;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 100px  0;
+}
+
+.features-title{
+    width: 50%;
+    color: #473288;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.features-subtitle{
+    margin: 30px 0 40px 0;
+    font-size: 1.4rem;
+    width: 70%;
+    text-align: center;
+}
+
+.circles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+
+}
+.circle-title{
+    color: #473288;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.circle-subtitle{
+    font-size: 1.2rem;
+    /*margin: 20px 10px;*/
+    width: 80%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.about-agency-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg2.png)");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.second-img{
+    width: 100%;
+}
+.about-agency{
+    width: 94px;
+    height: 26px;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    color: #FDAE1F;
+    background-color: #FFF4E0;
+    border-radius: 50px;
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.about-agency-left{
+    padding: 0 50px;
+    /*width: 60%;*/
+}
+
+.about-agency-right{
+    padding: 0 50px;
+    /*width: 40%;*/
+}
+
+.about-agency-title{
+    color: #473288;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-agency-subtitle{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.btn-container{
+    margin-top: 24px;
+    display: flex;
+    justify-content: left;
+}
+
+.btn{
+    background-color: #7B66EF;
+    border-radius: 50px;
+    margin-right: 8px;
+    width: 110px;
+    height: 38px;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rect_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg2.png");
+    background-repeat:no-repeat;
+    background-position:left;
+}
+.rect{
+    background-color: #372B7D;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 22px;
+}
+
+.rect_number{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.rect-title{
+    color: #FCA832;
+    font-size: 20px;
+    text-align: center;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.services-title{
+    color: #473288;
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 68%;
+    text-align: center;
+}
+
+.card-outer{
+    padding: 30px;
+}
+
+.card-inner-container{
+    width: 100%;
+    padding: 40px 46px 40px 50px;
+    /*margin: 10px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /*background-color: #FDAE1F;*/
+    box-shadow: 0px 10px 30px rgba(55,43,125,.1);
+}
+
+.card-content{
+    padding-top: 20px;
+}
+
+.card-title{
+    color: #473288;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.card-img{
+    width: 80px;
+    height: 80px;
+}
+
+.card-subtitle{
+    padding-top: 10px ;
+    line-height: 20px;
+    font-size: 1.4rem;
+    color: #293A51;
+}
+
+.btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.customers-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg4.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.customers-title{
+    color: #473288;
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.customers-subtitle{
+    margin: 30px 0;
+    font-size: 1.3rem;
+}
+
+.customers-left{
+    padding: 50px 40px;
+}
+.customers-right{
+    padding: 0 40px;
+}
+
+.customers-icon{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.customers-icon-title{
+    color: #473288;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clients-icons-container{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.clients-icon{
+    background-color: #FCFCFC;
+    margin: 10px;
+    cursor: pointer;
+    padding: 0;
+    width: 100px;
+}
+
+.clients-icon:hover{
+    background-color: #F5F5F5;
+}
+
+@media (min-width: 768px) {
+
+    .beso{
+        width: 160px;
+    }
+    .navbar-container{
+        display: inline;
+        overflow: hidden;
+        margin: 20px 16px 200px 0;
+        background-color: #7B66EF;
+    }
+
+    .navbar-btn{
+        float: right;
+        color: black;
+        font-size: 1.4rem;
+        padding: 10px;
+        text-decoration: none;
+        margin: 40px 10px 0px 10px;
+    }
+
+    .active_navbar{
+        color:#7B66EF ;
+    }
+
+    .navbar-btn:hover{
+        color: #9374E4;
+    }
+
+    .navbar-btn:active{
+        color: #9374E4;
+    }
+
+    .navbar-btn2{
+        float: right;
+        border-radius: 50px;
+        background-color: #C5C4FC;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4rem;
+        width: 130px;
+        height: 34px;
+        border: none;
+        margin: 40px;
+        cursor: pointer;
+    }
+
+    .top{
+        width: 100%;
+        background-size: contain;
+        /*background-position: right;*/
+        /*padding-bottom: 400px;*/
+        /*height: 600px;*/
+        /*padding: 30px 0px 140px 0;*/
+        /*background-color: #7B66EF;*/
+    }
+
+    .top-left{
+        /*width: 50%;*/
+        /*padding-bottom: 100px;*/
+        /*margin-left: 80px;*/
+        /*width: 40%;*/
+        margin-left:100px;
+        margin-top: 0px;
+        /*margin-top: 200px;*/
+    }
+
+    .first-title{
+        font-size: 4rem;
+        line-height: 40px;
+    }
+    .first-subtitle{
+        line-height: 12px;
+
+    }
+    features{
+        margin: 50px 100px 100px  0;
+    }
+    .features-subtitle{
+        margin: 20px 0 70px 0;
+        font-size: 1.4rem;
+        width: 54%;
+        text-align: center;
+    }
+
+    .features-circles{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /*margin: 0 200px;*/
+    }
+
+    .circles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle-subtitle{
+        font-size: 1.2rem;
+        margin: 20px 0px;
+        width: 70%;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .about-agency-container {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+   }
+    .about-agency-left{
+        padding: 20px 40px 40px 40px;
+        width: 50%;
+    }
+
+    .second-img{
+        width: 100%;
+    }
+    .about-agency-right{
+        padding: 0 20px;
+        width: 50%;
+    }
+    .about-agency-title{
+        font-size: 4.8rem;
+    }
+    .about-agency-subtitle{
+        font-size: 1.6rem;
+        line-height: 24px;
+        width: 90%;
+    }
+
+    .rect{
+        flex-direction: row;
+        width: 84%;
+        height: 180px;
+    }
+
+    .card-container{
+        width: 100%;
+        height: 700px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:0 30px;
+        background-image: url("https://themes.muffingroup.com/be/seo3/wp-content/uploads/2019/08/seo3-sectionbg3.png");
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size: cover;
+
+    }
+
+    .card-outer{
+        width: 50%;
+        padding: 10px;
+    }
+
+
+    .card-inner-container{
+        flex-direction: row;
+        align-items: start;
+        width: 100%;
+        padding: 40px 40px 40px 44px;
+        background-color: white;
+
+    }
+
+    .card-content{
+        width: 80%;
+        padding-left  : 30px;
+
+    }
+
+    .card-img-container{
+        width: 20%;
+    }
+
+    .card-img{
+        /*background-color: #C5C4FC;*/
+        width: 100%;
+        height: 100%;
+    }
+
+    .customers-container{
+        flex-direction: row;
+        justify-content: center;
+        margin: 40px;
+        padding-top: 100px;
+    }
+
+    .customers-left{
+        width: 50%;
+    }
+
+    .customers-right{
+        width: 50%;
+    }
+
+    .customers-left{
+        padding: 0 40px;
+        width: 46%;
+    }
+    .customers-right{
+        padding: 0 40px;
+        width: 54%;
+    }
+    .customers-title{
+        font-size: 4rem;
+        line-height: 40px;
+    }
+    .customers-subtitle{
+        line-height: 20px;
+        margin: 20px 0;
+    }
+    .customers-icon-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .clients-icons-container{
+        justify-content: center;
+    }
+
+    .footer-content{
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 1228px) {
+    .top-left{
+        padding-left: 100px;
+        padding-top: 200px;
+        /*width: 36%;*/
+    }
+    .first-title{
+        font-size: 5.4rem;
+        line-height: 50px;
+    }
+
+    .first-subtitle{
+        margin-top: 40px;
+        font-size: 1.6rem;
+        line-height: 18px;
+        width: 100%;
+    }
+    .rect {
+        width: 76%;
+    }
+    .card-container{
+        padding:0 200px;
+    }
+
+    .card-title{
+        font-size: 2rem;
+    }
+
+    .card-subtitle{
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+    .customers-container{
+        margin: 40px 12%;
+    }
+
+    .footer-content{
+        padding: 100px 100px;
+    }
+
+    .media-container{
+        width: 40%;
+    }
+
+    .footer-content-col{
+        width: 24%;
+    }
+}

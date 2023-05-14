@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+}
+
+.Header-Background {
+    background-color: white;
+    z-index: 999;
+}
+
+.Header-Home {
+    /*width: 90%;*/
+    margin: auto;
+    /*align-items: center;*/
+    /*justify-items: center;*/
+    justify-content: space-between;
+}
+
+.Header-Home-Logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header-Home a {
+    text-decoration: none;
+}
+
+.Header-Home ul {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: white;
+    height: 100%;
+}
+
+/*.Header-Home span {*/
+/*    font-family: "Encode Sans", sans-serif;*/
+/*    font-size: var(--semismall-fontsize);*/
+/*    !*color: black;*!*/
+/*    font-weight: bold;*/
+/*}*/
+
+.Header-Home span:hover {
+    font-family: "Encode Sans", sans-serif;
+    font-size: var(--semismall-fontsize);
+    color: var(--grey-color);
+    font-weight: bold;
+}
+
+.Header-Home li {
+    padding: 12px 0px;
+    /*background-color: #1F1945;*/
+}
+
+.Header-Home li span {
+    font-size: var(--verysmall-fontsize);
+}
+
+.Header-Home img {
+    padding-top: 16px;
+}
+
+i {
+    cursor: pointer;
+}
+
+.Header-Home i {
+    /*padding: 20px;*/
+}
+
+.Header-Home nav {
+    display: none;
+    transition: height 1s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    transform: translate(0, -50px);
+}
+
+.inView {
+    transform: translate(0, 0);
+    transition: all .6s ;
+}
+
+.navList{
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+    .Header-Home nav {
+        width: 200px;
+        display: none;
+        float: right;
+    }
+
+    .Header-Home {
+        /*width: 75%;*/
+        /*margin-left: 60%;*/
+    }
+    .Header-Home li{
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .Header-Background {
+        background-color: white;
+        z-index: 999;
+    }
+
+    .Header-Home {
+        /*width: 85%;*/
+        /*max-width: 1000px;*/
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Header-Home ul {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .Header-Home nav {
+        width: auto;
+        margin: 0;
+        display: block !important;
+    }
+
+    .Header-Home li {
+        /*padding: 12px 24px;*/
+    }
+
+    .Header-Home li span {
+        font-size: var(--semismall-fontsize);
+    }
+
+    .Header-Home i {
+        display: none;
+    }
+
+    .Header-Home ul {
+        /*margin-top: 24px;*/
+        height: 100%;
+
+    }
+}
