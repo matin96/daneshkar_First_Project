@@ -67,8 +67,11 @@ i {
 }
 
 .Header-Home nav {
+    /*width: 50px;*/
     display: none;
+    float: right;
     transition: height 1s;
+    margin-right: 20px;
 }
 
 .sticky {
@@ -87,21 +90,21 @@ i {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
-    .Header-Home nav {
-        width: 200px;
-        display: none;
-        float: right;
-    }
+        .Header-Home nav {
+            /*width: 200px;*/
+            display: none;
+            float: right;
+        }
 
-    .Header-Home {
-        /*width: 75%;*/
-        /*margin-left: 60%;*/
-    }
-    .Header-Home li{
-        height: 60px;
-        align-items: center;
-        justify-content: center;
-    }
+        .Header-Home {
+            /*width: 75%;*/
+            /*margin-left: 60%;*/
+        }
+        .Header-Home li{
+            height: 60px;
+            align-items: center;
+            justify-content: left;
+        }
 
 }
 
